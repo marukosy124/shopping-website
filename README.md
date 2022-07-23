@@ -4,7 +4,7 @@
 
 This is an individual project for the course IERG4210 - Web Programming and Security at the Chinese University of Hong Kong.
 
-This project aims to create a shopping website with optional membership system. An admin panel is also included for data management. PayPal APIs are integrated for payment processing.
+This project aims to create a shopping website with optional membership system. An admin panel is also included for data management. PayPal APIs are used for payment processing.
 
 ## Demo
 
