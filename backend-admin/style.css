@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.forms-container {
+  margin-left: 1rem;
+  width: 50%;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3rem;
+  overflow: hidden;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu a,
+.menu h1,
+.logout-btn {
+  padding-left: 1rem !important;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+}
+
+.logout-btn {
+  margin-right: 1rem !important;
+}
+
+.main {
+  margin-top: 3rem;
+  margin-inline: 1rem;
+}
+
+fieldset {
+  margin-bottom: 1rem;
+}
+
+input[type='submit'] {
+  margin-top: 1rem;
+}
+
+th {
+  text-align: left;
+  background-color: lightgray;
+}
+
+th,
+td {
+  padding-inline: 0.5rem;
+}
+
+table:not(.order-table) {
+  width: 50%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.error-msg {
+  color: red;
+}
+
+section,
+.new-image-container button {
+  display: none;
+}
+
+.drag-n-drop {
+  border: 2px dashed black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.new-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-container {
+  text-align: center;
+  width: 50%;
+}
+
+.pagination {
+  width: 100%;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: black;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.auth-container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container fieldset {
+  width: 50%;
+}
+
+.auth-container legend {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.login-field input {
+  width: 100%;
+  margin: 0.5rem 0 1rem;
+}
+
+.login-btn {
+  text-align: center;
+}
+
+.change-pw-title legend {
+  font-weight: bold;
+  font-size: 15px !important;
+}
+
+#order table {
+  width: 100% !important;
+}
