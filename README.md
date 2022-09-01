@@ -8,8 +8,6 @@ This project aims to create a shopping website with optional membership system. 
 
 ## Demo
 
-Sample Demo
-
 Click [here](https://youtu.be/WZ5-fVwGYG4) to see the demo.
 
 ## Setup
